@@ -2,7 +2,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
-
+//Перезалив из-за первого кривого коммита в мастер.
+//Забыл создать ветку
 #define MAX_STACKS 10
 
 typedef int hstack_t;
@@ -110,4 +111,3 @@ unsigned int stack_pop(const hstack_t hstack, void* data_out, const unsigned int
     }
     return 0u;
 }
-
